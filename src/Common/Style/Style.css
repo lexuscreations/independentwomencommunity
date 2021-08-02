@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background: #ddd;
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #000070;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(125deg, #0da89b, #fff);
+    border-radius: 10px;
+}
+
+.mh-100vh {
+    min-height: 100vh;
+}
+
+.font-cursive {
+    font-family: cursive;
+}
+
+.tt-c {
+    text-transform: capitalize;
+}
+
+.cur-poi {
+    cursor: pointer;
+}
+
+.d-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lst-sty-non {
+    list-style: none;
+}
